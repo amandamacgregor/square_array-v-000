@@ -1,6 +1,7 @@
 def square_array(array)
   # your code here
-  array = []
-  array.each {|x| print x, " -- " }
+   issue = []
+  array.each { |element| issue << element ** 2 }
+  puts issue
   
 end
