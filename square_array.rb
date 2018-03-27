@@ -4,4 +4,7 @@ def square_array(array)
   array.each { |element| numbers << element ** 2 }
   numbers
   
+  a = [ "a", "b", "c" ]
+a.each {|x| print x, " -- " }
+  
 end
